@@ -121,7 +121,7 @@ export interface VideoCapturePlusOptions {
  *    landscapeOverlay: 'assets/img/camera/overlay/landscape.png'
  * }
  *
- * this.videoCapturePlus.captureVideo(options).then(mediafile: MediaFile[] => console.log(mediafile), error => console.log('Something went wrong'));
+ * this.videoCapturePlus.captureVideo(options).then((mediafile: MediaFile[]) => console.log(mediafile), error => console.log('Something went wrong'));
  *
  * ```
  * @interfaces
